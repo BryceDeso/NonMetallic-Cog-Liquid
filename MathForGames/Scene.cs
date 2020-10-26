@@ -12,7 +12,7 @@ namespace MathForGames
 
         public Scene()
         {
-
+            _actors = new Actor[0];
         }
 
         public void AddActor(Actor actor)

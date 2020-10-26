@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Metadata file 'C:\Users\s208069\Documents\BDPRojects2\NonMetallic-Cog-Liquid\MathLibrary\bin\Debug\netstandard2.0\MathLibrary.dll' could not be found
+dotnet_diagnostic.CS0006.severity = none

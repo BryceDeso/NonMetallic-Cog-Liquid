@@ -101,8 +101,10 @@ namespace MathForGames
         {
             //Checks if the target has a value before continuing
             if (Target == null)
-                return true;
-
+            {
+                return false;
+            }
+                
             //Find the vector representing the distance between the actor and its target
             Vector2 direction = Position - Target.Position;
             //Get the magnitude of the distance vector
@@ -112,7 +114,9 @@ namespace MathForGames
 
             //Return true if the angle and distance are in range
             if (angle <= maxAngle && distance <= maxDistance)
+            {
                 return true;
+            }
 
             return false;
         }

@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Raylib-cs" Version="3.1.5" />
   </ItemGroup>
 
